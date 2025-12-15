@@ -25,3 +25,38 @@ vrat prazdne pole
 casova slozitost On2
 
 */
+
+export function twoSumOn(arr: number[], target: number) {
+	const map = new Map();
+	let needed = 0;
+
+	for (let i = 0; i < arr.length; i++) {
+		needed = target - arr[i];
+		console.log("needed", needed);
+		if (map.has(needed)) {
+			return [map.get(needed), i];
+		}
+		map.set(arr[i], i);
+	}
+	return [];
+}
+/*
+psudokod:
+prijmi pole
+prijmi cislo
+
+init mapu
+init pomocnou promenou needed
+
+pro každý prvek
+    spočítej, co hledám
+        pokud to existuje v mpate
+            vrat index
+        uloz aktualni prvek do mapy
+
+
+vrat prazdne pole
+
+casova slozitost On
+
+*/
