@@ -3,6 +3,7 @@ import { areBracketsBalanced } from "../algorithms/brackets";
 import { binarySearch } from "../algorithms/binarySearch";
 import { twoSum } from "../algorithms/twoSum";
 import { twoSumOn } from "../algorithms/twoSum";
+import { isPalindrome } from "../algorithms/isPalindrome";
 
 //BUBLESORT
 // const data = [5, 3, 8, 4, 2];
@@ -26,6 +27,10 @@ import { twoSumOn } from "../algorithms/twoSum";
 // console.log(twoSum([3, 2, 4], 6)); // → [1, 2]
 
 //TWOSUM On
-console.log(twoSumOn([2, 7, 11, 15], 13));
-console.log(twoSumOn([3, 3], 6));
-console.log(twoSumOn([1, 2, 3], 7));
+// console.log(twoSumOn([2, 7, 11, 15], 13));
+// console.log(twoSumOn([3, 3], 6));
+// console.log(twoSumOn([1, 2, 3], 7));
+
+//ISPALINDROME
+console.log(isPalindrome("A man, a plan, a canal: Panama")); // → true
+console.log(isPalindrome("race a car")); // → false
