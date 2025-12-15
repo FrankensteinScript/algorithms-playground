@@ -1,15 +1,9 @@
-import { bubbleSort } from "../algorithms/bubbleSort";
 import { areBracketsBalanced } from "../algorithms/brackets";
 import { binarySearch } from "../algorithms/binarySearch";
 import { twoSum } from "../algorithms/twoSum";
 import { twoSumOn } from "../algorithms/twoSum";
 import { isPalindrome } from "../algorithms/isPalindrome";
-
-//BUBLESORT
-// const data = [5, 3, 8, 4, 2];
-// console.log("Vstup:", data);
-// const sorted = bubbleSort(data);
-// console.log("Výstup:", sorted);
+import { isValidParentheses } from "../algorithms/isValidParentheses";
 
 //BRACKETS
 
@@ -32,5 +26,12 @@ import { isPalindrome } from "../algorithms/isPalindrome";
 // console.log(twoSumOn([1, 2, 3], 7));
 
 //ISPALINDROME
-console.log(isPalindrome("A man, a plan, a canal: Panama")); // → true
-console.log(isPalindrome("race a car")); // → false
+// console.log(isPalindrome("A man, a plan, a canal: Panama")); // → true
+// console.log(isPalindrome("race a car")); // → false
+
+//ISVALIDPARENTHESES
+console.log(isValidParentheses("()")); // → true
+console.log(isValidParentheses("()[]{}")); // → true
+console.log(isValidParentheses("(]")); // → false
+console.log(isValidParentheses("([)]")); // → false
+console.log(isValidParentheses("{[]}")); // → true
