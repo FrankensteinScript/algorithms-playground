@@ -4,6 +4,7 @@ import { twoSum } from "../algorithms/twoSum";
 import { twoSumOn } from "../algorithms/twoSum";
 import { isPalindrome } from "../algorithms/isPalindrome";
 import { isValidParentheses } from "../algorithms/isValidParentheses";
+import { bubbleSort } from "../algorithms/bubbleSort";
 
 //BRACKETS
 
@@ -30,8 +31,13 @@ import { isValidParentheses } from "../algorithms/isValidParentheses";
 // console.log(isPalindrome("race a car")); // → false
 
 //ISVALIDPARENTHESES
-console.log(isValidParentheses("()")); // → true
-console.log(isValidParentheses("()[]{}")); // → true
-console.log(isValidParentheses("(]")); // → false
-console.log(isValidParentheses("([)]")); // → false
-console.log(isValidParentheses("{[]}")); // → true
+// console.log(isValidParentheses("()")); // → true
+// console.log(isValidParentheses("()[]{}")); // → true
+// console.log(isValidParentheses("(]")); // → false
+// console.log(isValidParentheses("([)]")); // → false
+// console.log(isValidParentheses("{[]}")); // → true
+
+//BUBBLESORT
+console.log("bubble", bubbleSort([5, 3, 8, 4, 2]));
+console.log("bubble", bubbleSort([4, 2, 2, 8, 3, 3, 1]));
+console.log("bubble", bubbleSort([10, -3, 0, 7, 7, 2, 15, -1]));
