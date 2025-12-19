@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.panel {
+	padding: 16px;
+	background: #f3f3f3;
+}
+
+.resizer {
+	width: 10px;
+	cursor: col-resize;
+	background: rgba(6, 16, 93, 0.333);
+}
+
+.resizer:hover {
+	background: #d61515;
+}
