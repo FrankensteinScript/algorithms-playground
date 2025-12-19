@@ -10,18 +10,3 @@ export function bubbleSort(arr: number[]) {
 	}
 	return arr;
 }
-
-/*
-pseudokód:
-
-přijmi pole čísel
-
-pro i od 0 do délka pole − 1
-  pro j od 0 do délka pole − i − 1
-    pokud prvek[j] > prvek[j + 1]
-      prohoď je
-
-časová složitost: O(n²)
-paměťová složitost: O(1)
-
-*/

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Uživatelé</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<h1>Uživatelé</h1>
+
+		<div class="containerInput">
+			<input id="nameInput" placeholder="Jméno" />
+			<input id="ageInput" type="number" placeholder="Věk" />
+			<button id="addBtn">Přidat</button>
+		</div>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Jméno</th>
+					<th id="sortAge">Věk ⬍</th>
+					<th>Akce</th>
+				</tr>
+			</thead>
+			<tbody id="tableBody"></tbody>
+		</table>
+
+		<script src="/src/index.js"></script>
+	</body>
+</html>
