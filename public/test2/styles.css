@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+
+.mainContainer {
+	display: flex;
+	height: 100vh;
+}
+
+.container {
+	margin: 10px;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+.head {
+	color: white;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.containerText {
+	flex: 1;
+	overflow-y: auto;
+	scrollbar-width: thin;
+}
+
+footer {
+	color: white;
+	background-color: black;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
