@@ -4,10 +4,8 @@ export function areBracketsBalanced(expression: string): boolean {
 	for (const char of expression) {
 		if (char === "(") {
 			stack.push(char);
-		} else if (char === ")") {
-			if (stack.length === 0) {
-				return false;
-			}
+			if (stack.length === 0) return false;
+		} else {
 			stack.pop();
 		}
 	}

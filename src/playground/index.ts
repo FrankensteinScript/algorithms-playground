@@ -4,7 +4,7 @@ import { twoSum } from "../algorithms/twoSum";
 import { twoSumOn } from "../algorithms/twoSum";
 import { isPalindrome } from "../algorithms/isPalindrome";
 import { isValidParentheses } from "../algorithms/isValidParentheses";
-import { bubbleSort } from "../algorithms/bubbleSort";
+import { bubbleSort } from "../algorithms/bubblesort";
 
 //BRACKETS
 
@@ -14,8 +14,8 @@ import { bubbleSort } from "../algorithms/bubbleSort";
 // console.log("Výstup:", brackets);
 
 //BINARY SEARCH
-// console.log("spravne", binarySearch([1, 3, 5, 7, 9], 7)); // → 3
-// console.log("spatne", binarySearch([1, 3, 5, 7, 9], 4)); // → -1
+console.log("spravne", binarySearch([1, 3, 5, 7, 9], 7)); // → 3
+console.log("spatne", binarySearch([1, 3, 5, 7, 9], 4)); // → -1
 
 //TWOSUM
 // console.log(twoSum([2, 7, 11, 15], 9)); // → [0, 1]
@@ -38,6 +38,6 @@ import { bubbleSort } from "../algorithms/bubbleSort";
 // console.log(isValidParentheses("{[]}")); // → true
 
 //BUBBLESORT
-console.log("bubble", bubbleSort([5, 3, 8, 4, 2]));
-console.log("bubble", bubbleSort([4, 2, 2, 8, 3, 3, 1]));
-console.log("bubble", bubbleSort([10, -3, 0, 7, 7, 2, 15, -1]));
+// console.log("bubble", bubbleSort([5, 3, 8, 4, 2]));
+// console.log("bubble", bubbleSort([4, 2, 2, 8, 3, 3, 1]));
+// console.log("bubble", bubbleSort([10, -3, 0, 7, 7, 2, 15, -1]));

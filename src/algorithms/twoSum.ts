@@ -32,7 +32,7 @@ export function twoSumOn(arr: number[], target: number) {
 
 	for (let i = 0; i < arr.length; i++) {
 		needed = target - arr[i];
-		console.log("needed", needed);
+
 		if (map.has(needed)) {
 			return [map.get(needed), i];
 		}
